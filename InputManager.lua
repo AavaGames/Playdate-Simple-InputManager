@@ -67,6 +67,7 @@ function InputManager:JustPressed(button)
 end
 
 function InputManager:JustReleased(button)
+    -- NOTE: remove the held.was check if you would like just released to be triggered even if the button was held
     return self.held[button].was == false and playdate.buttonJustReleased(button)
 end
 

@@ -2,7 +2,7 @@
 
 An input manager that keeps track of IsPressed, JustPressed, JustReleased, Held &amp; Held Long for all buttons (D-Pad included).
 
-Example
+## Example
 
 main.lua
 ```
